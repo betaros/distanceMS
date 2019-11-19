@@ -4,10 +4,10 @@ Microservice which calculates the distance based on GPS coordinates
 Integrated Swagger API documentation
 
 ### Routes
-####/
+#### /
 Swagger documentation page
 
-####/distance/{coord}
+#### /distance/{coord}
 API for calculating the distance in km between two points by given coordinates in **WGS84** format.
 ```
 {coord} = Latitude1,Longitude1,Latitude2,Longitude2
@@ -38,5 +38,5 @@ In case of wrong values used as coordinates the result of the distance is 0.
 ```
 
 
-####Author
+#### Author
 Jan Füsting
